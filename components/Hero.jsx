@@ -30,7 +30,7 @@ export default function Hero() {
           {t("heroDescription")}
         </p>
 
-        <a href="/cv.pdf" target="_blank" rel="noreferrer" className="cv-button">
+        <a href="\CV_Desti Nur Irawati.pdf" target="_blank" rel="noreferrer" className="cv-button">
           {t("viewCv")}
         </a>
 
