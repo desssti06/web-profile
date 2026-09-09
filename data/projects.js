@@ -136,8 +136,8 @@ export const projects = [
       "CNN",
       "Deep Learning",
     ],
-    image: "/images/animal-classification.jpg",
-    githubUrl: "https://github.com",
+    image: "/project-preview/animalclasification.png",
+    githubUrl: "https://github.com/desssti06/Klasifikasi-Hewan",
     contribution: [
       "Prepared the image dataset.",
       "Performed preprocessing and augmentation.",
