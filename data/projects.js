@@ -89,6 +89,38 @@ export const projects = [
   },
 
   {
+    title: "Food Component Detection for Free Nutritious Meals",
+    slug: "food-component-detection",
+    role: "ai-engineer",
+    category: "AI / COMPUTER VISION",
+    shortDescription:
+      "Food component detection for MBG using YOLOv8.",
+    description:
+      "A computer vision research project for detecting food components in Free Nutritious Meals servings using YOLOv8 object detection.",
+    tech: [
+      "Python",
+      "YOLOv8",
+      "Ultralytics",
+      "Roboflow",
+      "PyTorch",
+      "OpenCV",
+      "Jupyter Notebook",
+    ],
+    image: "/project-preview/fooddetect.png",
+    githubUrl: "https://github.com/desssti06/FoodDetection",
+    contribution: [
+      "Developed an object detection solution to identify food components in Free Nutritious Meals servings.",
+      "Prepared and downloaded the YOLOv8-format detection dataset using Roboflow.",
+      "Created training notebooks for YOLOv8n, YOLOv8s, YOLOv8m, YOLOv8l, and YOLOv8x experiments.",
+      "Compared the effect of model variants and batch sizes 8, 16, and 32 on detection performance.",
+      "Configured and ran training experiments with up to 100 epochs using Ultralytics YOLOv8.",
+      "Evaluated model performance using precision, recall, mAP@50, and mAP@50-95.",
+      "Saved training configurations, per-epoch metrics, best model weights, and validation predictions for reproducible analysis.",
+      "Analyzed validation visualizations, loss curves, metric graphs, and confusion matrices across experiments.",
+    ],
+  },
+
+  {
     title: "Animal Image Classification",
     slug: "animal-image-classification",
     role: "ai-engineer",
