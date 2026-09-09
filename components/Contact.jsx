@@ -16,10 +16,10 @@ export default function Contact() {
           <a href="mailto:destinuriarawati06@gmail.com" className="contact-link contact-link-primary">
             {t("emailMe")}
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="contact-link">
+          <a href="https://www.linkedin.com/in/desti-nur-irawati-498319333/" target="_blank" rel="noreferrer" className="contact-link">
             LinkedIn
           </a>
-          <a href="https://github.com" target="_blank" rel="noreferrer" className="contact-link">
+          <a href="https://github.com/desssti06" target="_blank" rel="noreferrer" className="contact-link">
             GitHub
           </a>
         </div>

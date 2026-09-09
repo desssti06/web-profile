@@ -48,7 +48,7 @@ export const projects = [
       "LangChain",
     ],
     image: "/images/auto-grading.jpg",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/aura-capstone-project/aura-ai",
     contribution: [
       "Developed the RAG pipeline for processing student assignments.",
       "Implemented semantic search using SentenceTransformer and FAISS.",
@@ -216,8 +216,8 @@ export const projects = [
       "Tailwind CSS",
       "JavaScript",
     ],
-    image: "/images/online-test.jpg",
-    githubUrl: "https://github.com",
+    image: "/project-preview/onlinetest.png",
+    githubUrl: "https://github.com/diefordie/frontend-etam-test",
     contribution: [
       "Developed the application interface.",
       "Built responsive layouts.",
@@ -225,32 +225,6 @@ export const projects = [
       "Created test category pages.",
       "Created test result pages.",
       "Implemented navigation between pages.",
-    ],
-  },
-
-  {
-    title: "Lucky Wheel",
-    slug: "lucky-wheel",
-    role: "frontend-engineer",
-    category: "FRONTEND / JAVASCRIPT",
-    shortDescription:
-      "Interactive Lucky Wheel simulation using JavaScript.",
-    description:
-      "A dynamic spinning wheel application with randomized options and animations.",
-    tech: [
-      "JavaScript",
-      "HTML",
-      "CSS",
-      "Animation",
-    ],
-    image: "/project-preview/lucky wheel.png",
-    githubUrl: "https://github.com/desssti06/lucky-wheel",
-    contribution: [
-      "Built the HTML structure.",
-      "Developed randomization logic.",
-      "Created dynamic spinning animation.",
-      "Implemented button interaction.",
-      "Designed the interface using CSS.",
     ],
   },
 
@@ -305,6 +279,32 @@ export const projects = [
       "Added interactive inputs for object distance, object height, and focal length.",
       "Created a simple car illustration for the object and its image.",
       "Added keyboard controls for adjusting simulation values and closing the window.",
+    ],
+  },
+
+  {
+    title: "Lucky Wheel",
+    slug: "lucky-wheel",
+    role: "frontend-engineer",
+    category: "FRONTEND / JAVASCRIPT",
+    shortDescription:
+      "Interactive Lucky Wheel simulation using JavaScript.",
+    description:
+      "A dynamic spinning wheel application with randomized options and animations.",
+    tech: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Animation",
+    ],
+    image: "/project-preview/lucky wheel.png",
+    githubUrl: "https://github.com/desssti06/lucky-wheel",
+    contribution: [
+      "Built the HTML structure.",
+      "Developed randomization logic.",
+      "Created dynamic spinning animation.",
+      "Implemented button interaction.",
+      "Designed the interface using CSS.",
     ],
   },
 ];
