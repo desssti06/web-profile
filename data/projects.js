@@ -202,6 +202,37 @@ export const projects = [
   },
 
   {
+    title: "Bike Sharing Analysis",
+    slug: "bike-sharing-analysis",
+    role: "data-scientist",
+    category: "DATA SCIENCE / DATA ANALYSIS",
+    shortDescription:
+      "Exploratory analysis and interactive dashboard for bike-sharing rental patterns.",
+    description:
+      "An end-to-end analysis of Capital Bikeshare usage in Washington, D.C. during 2011 and 2012, covering data cleaning, exploration, visualization, and an interactive Streamlit dashboard.",
+    tech: [
+      "Python",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn",
+      "Streamlit",
+      "Jupyter Notebook",
+    ],
+    image: "/project-preview/dashboardsepeda.png",
+    githubUrl: "https://github.com/desssti06/desti-bike-sharing-analysis",
+    contribution: [
+      "Cleaned and prepared daily and hourly Bike Sharing datasets for analysis.",
+      "Performed exploratory data analysis (EDA) to identify rental patterns across seasons, days, weather, and time categories.",
+      "Analyzed rental trends and compared usage patterns between 2011 and 2012.",
+      "Compared average rentals across weekdays and weekends.",
+      "Analyzed the impact of weather conditions, temperature, and humidity on bike rental demand.",
+      "Created data visualizations using Matplotlib and Seaborn to communicate key findings.",
+      "Developed an interactive Streamlit dashboard with filters for season, day type, weather, and date range.",
+    ],
+  },
+
+  {
     title: "Online Test Application",
     slug: "online-test-application",
     role: "frontend-engineer",
